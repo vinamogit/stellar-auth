@@ -61,3 +61,8 @@ var account = await SERVER.loadAccount(pk);
 
 stellarAuthorize(account, CONDITIONS); // return true if the CONDITIONS apply, false otherwise
 ```
+
+## Demo
+
+[https://vinamogit.github.io/stellar-auth/demo/frontend/index.html](https://vinamogit.github.io/stellar-auth/demo/frontend/index.html)
+
