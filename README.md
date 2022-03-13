@@ -46,6 +46,9 @@ const CONDITIONS = {
 }
 ```
 
+This conditions are met if the account owns:
+1 XLM and 1 stroop NFT1 and (1 stroop NFT2 or 1 stroop NFT3 1 stroop NFT4 1 stroop NFT5)
+
 ## Usage
 
 ```javascript
