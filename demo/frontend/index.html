@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Stellar authentication framework</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/9.1.0/stellar-sdk.min.js"
+    integrity="sha512-29ReeDE/g7IJWIy2da3122XVUvVdNDNoXGsmlcmn+CDODrPDT6DOeMQLZcsc3Eyh8RNwZ/XXrMfESF49Ck8usg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"
+    integrity="sha512-VLCxd5rbayyHDmGs7jW2zyVQF6+gknBifiK3gGP68a4ju/IXB9MVMdJ0CEmETOc/ExmIPXyCi3KNCQxXvcw62Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src='main.js' type="module"></script>
+</head>
+
+<body>
+  <h2>Demo</h2>
+  <h3>Stellar authentication framework</h3>
+
+  <h4>Bootstrap</h4>
+  This demo requires the Freighter extenstion configured on TESTNET.<br />
+  <a href="https://www.freighter.app/">Get Freighter</a><br />
+  <br />
+  The authentication requires:
+  <ul>
+    <li>
+      1 NFT1:GC3SEQHDRFTUORPEQ5EDCKKULKBOVFZ37TYIJYU7IWKJVSN7DCDQTEIO<br />
+      <button id="NFT1">Get 1 NFT1</button>
+    </li>
+    <li>and one of the following NFTs
+      <ul>
+        <li>
+          NFT2:GC3SEQHDRFTUORPEQ5EDCKKULKBOVFZ37TYIJYU7IWKJVSN7DCDQTEIO<br />
+          <button id="NFT2">Get 1 NFT2</button>
+        </li>
+        <li>
+          NFT3:GC3SEQHDRFTUORPEQ5EDCKKULKBOVFZ37TYIJYU7IWKJVSN7DCDQTEIO<br />
+          <button id="NFT3">Get 1 NFT3</button>
+        </li>
+        <li>
+          NFT4:GC3SEQHDRFTUORPEQ5EDCKKULKBOVFZ37TYIJYU7IWKJVSN7DCDQTEIO<br />
+          <button id="NFT4">Get 1 NFT4</button>
+        </li>
+        <li>
+          NFT5:GC3SEQHDRFTUORPEQ5EDCKKULKBOVFZ37TYIJYU7IWKJVSN7DCDQTEIO<br />
+          <button id="NFT5">Get 1 NFT5</button>
+        </li>
+      </ul>
+    </li>
+  </ul>
+ 
+  <br /><br />
+
+  Then you can sign in based on the NFT authorization:
+  <button id="login">Sign in</button>
+  <div id="info"></div>
+</body>
+
+</html>
